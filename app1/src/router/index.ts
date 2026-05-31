@@ -2,11 +2,11 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
-  history: createWebHistory(), // ❗ без base вообще
+  history: createWebHistory(), //
 
   routes: [
     {
-      path: '/',   // ✔ возвращаем нормальные абсолютные пути
+      path: '/',
       name: 'home',
       component: HomeView,
     },
